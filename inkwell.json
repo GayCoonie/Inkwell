@@ -1,0 +1,14 @@
+{
+	"id": "inkwell",
+	"name": "Inkwell",
+	"display_name": "Inkwell",
+	"author": ["alphameter", "GayCoonie"],
+	"description": "Adds a dark mode deckskin with suit colors based on the sinful jokers, and matching malverk textures for decks and enhancers",
+	"prefix": "iw",
+	"main_file": "main.lua",
+	"priority": 0,
+	"badge_colour": "d345c1",
+	"badge_text_colour": "2400b3",
+	"version": "1.0",
+	"dependencies": ["malverk"],
+}

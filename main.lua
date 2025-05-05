@@ -27,7 +27,7 @@ G.C.INKWELLDIAMONDS = HEX('D66B1B')
 SMODS.DeckSkin {
     key = 'inkwellspades',
     suit = 'Spades',
-    loc_text = {name ='Inkwell Spades'},
+    loc_txt = {name ='Inkwell Spades'},
     palettes = {
         {
             key = 'hc',
@@ -48,7 +48,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellhearts',
     suit = 'Hearts',
-    loc_text = {name = 'Inkwell Hearts'},
+    loc_txt = {name = 'Inkwell Hearts'},
     palettes = {
         {
             key = 'hc',
@@ -69,7 +69,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellclubs',
     suit = 'Clubs',
-    loc_text = {name = 'Inkwell Clubs'},
+    loc_txt = {name = 'Inkwell Clubs'},
     palettes = {
         {
             key = 'hc',
@@ -90,7 +90,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwelldiamonds',
     suit = 'Diamonds',
-    loc_text = {name = 'Inkwell Diamonds'},
+    loc_txt = {name = 'Inkwell Diamonds'},
     palettes = {
         {
             key = 'hc',

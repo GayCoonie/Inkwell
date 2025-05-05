@@ -14,8 +14,8 @@ SMODS.Atlas{
 
 SMODS.Atlas{  
     key = 'ui_assets',
-    px = 36,
-    py = 36,
+    px = 18,
+    py = 18,
     path = 'ui_assets.png',
 }
 

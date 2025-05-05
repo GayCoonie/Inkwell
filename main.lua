@@ -27,7 +27,7 @@ G.C.INKWELLDIAMONDS = HEX('D66B1B')
 SMODS.DeckSkin {
     key = 'inkwellspades',
     suit = 'Spades',
-    loc_text = 'Inkwell Spades',
+    loc_text = {name ='Inkwell Spades'},
     palettes = {
         {
             key = 'hc',
@@ -46,7 +46,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellhearts',
     suit = 'Hearts',
-    loc_text = 'Inkwell Hearts',
+    loc_text = {name = 'Inkwell Hearts'},
     palettes = {
         {
             key = 'hc',
@@ -65,7 +65,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellclubs',
     suit = 'Clubs',
-    loc_text = 'Inkwell Clubs',
+    loc_text = {name = 'Inkwell Clubs'},
     palettes = {
         {
             key = 'hc',
@@ -84,7 +84,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwelldiamonds',
     suit = 'Diamonds',
-    loc_text = 'Inkwell Diamonds',
+    loc_text = {name = 'Inkwell Diamonds'},
     palettes = {
         {
             key = 'hc',
@@ -115,14 +115,26 @@ AltTexture({
   set = 'Enhanced',
   path = 'enhancers.png',
   loc_txt = {
-    name = 'Inkwell Decks',
+    name = 'Inkwell Enhancers',
     text = {'Dark colored textures for the vanillia decks'}
   }
 })
 
+AltTexture({ -- Dark Base Cards
+    key = 'dark_base',
+    keys = {'c_base'},
+    set = 'Enhanced',
+    path = 'enhancers.png',
+    original_sheet = true,
+    loc_txt = {
+        name = 'Inkwell Base card',
+        text = {'Dark base card'}
+    }
+})
+
 TexturePack({
   key = 'inkwell_malverk',
-  textures = {'iw_dark_decks', 'iw_dark_enhancers'},
+  textures = {'iw_dark_decks', 'iw_dark_enhancers', 'iw_dark_base'},
   loc_txt = {
     name = 'Inkwell',
     text = {'Counterpart to the Inkwell deck skin', 'adds the dark card back, dark enhancements, and dark decks'}

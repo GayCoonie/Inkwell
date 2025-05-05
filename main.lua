@@ -27,7 +27,7 @@ G.C.INKWELLDIAMONDS = HEX('D66B1B')
 SMODS.DeckSkin {
     key = 'inkwellspades',
     suit = 'Spades',
-    loc_txt = {name ='Inkwell Spades'},
+    loc_txt = 'Inkwell Spades',
     palettes = {
         {
             key = 'hc',
@@ -36,7 +36,6 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLSPADES,
-            loc_text = {name ='Inkwell Spades'},
             suit_icon = {
                   pos = 1,
                   atlas = 'iw_ui_assets'
@@ -48,7 +47,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellhearts',
     suit = 'Hearts',
-    loc_txt = {name = 'Inkwell Hearts'},
+    loc_txt = 'Inkwell Hearts',
     palettes = {
         {
             key = 'hc',
@@ -57,7 +56,6 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLHEARTS,
-            loc_text = {name = 'Inkwell Hearts'},
             suit_icon = {
                   pos = 1,
                   atlas = 'iw_ui_assets'
@@ -69,7 +67,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwellclubs',
     suit = 'Clubs',
-    loc_txt = {name = 'Inkwell Clubs'},
+    loc_txt = 'Inkwell Clubs',
     palettes = {
         {
             key = 'hc',
@@ -78,7 +76,6 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLCLUBS,
-            loc_text = {name = 'Inkwell Clubs'},
             suit_icon = {
                   pos = 1,
                   atlas = 'iw_ui_assets'
@@ -90,7 +87,7 @@ SMODS.DeckSkin {
 SMODS.DeckSkin {
     key = 'inkwelldiamonds',
     suit = 'Diamonds',
-    loc_txt = {name = 'Inkwell Diamonds'},
+    loc_txt = 'Inkwell Diamonds',
     palettes = {
         {
             key = 'hc',
@@ -99,7 +96,6 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLDiamonds,
-            loc_text = {name = 'Inkwell Diamonds'},
             suit_icon = {
                   pos = 1,
                   atlas = 'iw_ui_assets'

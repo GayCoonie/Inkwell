@@ -36,6 +36,7 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLSPADES,
+            loc_text = {name ='Inkwell Spades'},
             suit_icon = {
                   atlas = 'ui_assets'
                          }
@@ -55,6 +56,7 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLHEARTS,
+            loc_text = {name = 'Inkwell Hearts'},
             suit_icon = {
                   atlas = 'ui_assets'
                          }
@@ -74,6 +76,7 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLCLUBS,
+            loc_text = {name = 'Inkwell Clubs'},
             suit_icon = {
                   atlas = 'ui_assets'
                          }
@@ -93,6 +96,7 @@ SMODS.DeckSkin {
             atlas = 'iw_deck',
             pos_style = 'deck',
             colour = G.C.INKWELLDiamonds,
+            loc_text = {name = 'Inkwell Diamonds'},
             suit_icon = {
                   atlas = 'ui_assets'
                          }

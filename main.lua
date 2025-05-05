@@ -102,21 +102,21 @@ SMODS.DeckSkin {
 
 AltTexture({
   key = 'dark_decks',
-  set = 'Deck',
+  set = 'Back',
   path = 'enhancers.png',
   loc_txt = {
     name = 'Inkwell Decks',
-    text = 'Dark colored textures for the vanillia decks'
+    text = {'Dark colored textures for the vanillia decks'}
   }
 })
 
 AltTexture({
   key = 'dark_enhancers',
-  set = 'Enhancer',
+  set = 'Enhanced',
   path = 'enhancers.png',
   loc_txt = {
     name = 'Inkwell Decks',
-    text = 'Dark colored textures for the vanillia decks'
+    text = {'Dark colored textures for the vanillia decks'}
   }
 })
 

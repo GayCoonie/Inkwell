@@ -1,1 +1,1 @@
-#### Inkwell: A Sinful Dark Mode for Balatro
+# Inkwell: A Sinful Dark Mode for Balatro
